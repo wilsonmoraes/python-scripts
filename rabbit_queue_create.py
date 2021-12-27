@@ -1,8 +1,8 @@
 import pika
 
-host = "myrtle-white-bonobo.rmq2.cloudamqp.com"
-user = "ldjhoazs"
-password = "RuExar1Jwk-8jILvZrRkbKVu_uQt5T6e"
+host = ""
+user = ""
+password = ""
 # queue_dlq = ""
 queues: [] = ['pp.payments.braspag.create',
               'pp.payments.braspag.create_fail',
