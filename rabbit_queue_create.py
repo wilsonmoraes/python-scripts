@@ -11,7 +11,11 @@ queues: [] = ['pp.payments.braspag.create',
               'pp.payments.braspag.cancel',
               'pp.payments.braspag.cancel_fail',
               'pp.payments.braspag.canceled',
-              'pp.payments.braspag.canceled_fail']
+              'pp.payments.braspag.canceled_fail',
+              'pp.payments.braspag.capture',
+              'pp.payments.braspag.capture_fail',
+              'pp.payments.braspag.captured',
+              'pp.payments.braspag.captured_fail']
 credentials = pika.PlainCredentials(user, password)
 connection = pika.BlockingConnection(
     pika.ConnectionParameters(
